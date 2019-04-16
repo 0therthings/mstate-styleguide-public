@@ -1,0 +1,63 @@
+<header id="site-header" class="site-header">
+  <div class="container site-header-container">
+
+    {% include "logo.twig" %}
+
+    <div class="site-header__menus">
+      <ul class="nav nav--secondary">
+        <li><a href="#">Foundations</a></li>
+        <li><a href="#">Workforce Development</a></li>
+        <li><a href="#">SpartanNet</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#" class="pill pill--search">Search</a></li>
+      </ul>
+
+      <ul class="nav nav--primary">
+        <li>
+          <a href="#">Academics</a>
+          <div class="dropdown">
+            <div class="container">
+              <h2>Academics dropdown</h2>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="#">Admissions &amp; Aid</a>
+          <div class="dropdown">
+            <div class="container">
+              <h2>Admissions &amp; Aid dropdown</h2>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="#">Student Support</a>
+          <div class="dropdown">
+            <div class="container">
+              <h2>Student Support dropdown</h2>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="#">M State Life</a>
+          <div class="dropdown">
+            <div class="container">
+              <h2>M State Life dropdown</h2>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="site-search">
+      <form action="https://www.minnesota.edu/search/" class="form-inline" id="hp-search-form-desktop" method="get" name="hp-search">
+        <div class="input-group hp-search-container">
+          <input class="form-control" name="q" placeholder="Search M State" type="text">
+          <span class="input-group-btn"><button class="btn btn-default" type="submit" aria-label="Search" title="Search"><i class="fas fa-search"></i></button></span>
+        </div>
+      </form>
+    </div>
+
+    {# {% include "menu.twig" %} #}
+    
+  </div>
+</header>
